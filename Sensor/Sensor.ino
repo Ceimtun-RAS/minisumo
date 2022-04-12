@@ -12,11 +12,11 @@
 
 class Sensor{
     public:
-        Sensor(); 
+        void Sensor(); 
         int displayName(); 
 
     private: 
-}
+}; 
 
 Sensor::Sensor(){
     print("Me creaste! uwu"); 
@@ -24,4 +24,3 @@ Sensor::Sensor(){
 Sensor::int displayName(){
 
 }
-
