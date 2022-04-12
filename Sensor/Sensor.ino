@@ -12,16 +12,31 @@
 
 class Sensor{
     public:
-        Sensor(); 
+        void Sensor(); 
         int displayName(); 
 
     private: 
-}
+}; 
 
 Sensor::Sensor(){
-    print("Me creaste! uwu"); 
+    Serial.print("me creaste");
 }
-Sensor::int displayName(){
-
+int Sensor::displayName(){
+  Serial.print("Display");
+  return 1;
 }
 
+Sensor mySensor; 
+
+
+// ---- setup -----
+void setup(){
+Serial.begin(9600); 
+mySensor = new Sensor(); 
+}
+
+
+void loop(){
+  mySensor.displayName(); 
+}
+}
