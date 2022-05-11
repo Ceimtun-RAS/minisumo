@@ -13,7 +13,7 @@ The repository contains several branches each for a different purpose.
 * [test](https://github.com/Ceimtun-RAS/minisumo/tree/test): 
 
 ## Getting started
-You can get your own copy of this project by [forking it](https://github.com/Ceimtun-RAS/minisumo/fork), or if you don't have github account click this [link](https://github.com/Ceimtun-RAS/minisumo/archive/refs/heads/master.zip) to get a zip file of the project.
+You can get your own copy of this project by [forking it](https://github.com/Ceimtun-RAS/minisumo/fork), or if you don't have a github account click this [link](https://github.com/Ceimtun-RAS/minisumo/archive/refs/heads/master.zip) to get a zip file of the project.
 
 [Members of the organization](https://github.com/orgs/Ceimtun-RAS/people) can clone the repository directly without forking it. Use either the [GitHub Dekstop](https://desktop.github.com/) or the command line to clone the repository.
 
@@ -22,7 +22,7 @@ git clone https://github.com/Ceimtun-RAS/minisumo.git
 ```
 
 ### Adding remote branches
-Remote branches can be added to your local repo using the command```git checkout <name-of-remote-branch>```. Here are two of importatn the branch for this project. 
+Remote branches can be added to your local repo using the command```git checkout <name-of-remote-branch>```. Here are two important  branches for this project. 
 
 ```
 git checkout develop 
@@ -34,8 +34,8 @@ THis is a open source project and anyone is encourage to contribute. if you are 
 
 ### Prerequisites
 Before starting: 
-* setup git and have a github account.
-* Have an Integraded Development Environment (IDE) for writing code. [arduino IDE](https://www.arduino.cc/en/software) or vscode are recommended. 
+* Setup git and a github account.
+* Have ready an Integraded Development Environment (IDE) for writing code. [arduino IDE](https://www.arduino.cc/en/software) or vscode are recommended. 
 
 ### Contributing process
 
@@ -69,3 +69,4 @@ git checkout develop
    
 [](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#heading=h.j8e4paqkfz0q)
 [](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#rules)
+[](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
