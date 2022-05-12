@@ -1,5 +1,8 @@
 
 # Notes 
+tool> bootloader old
+
+shield might be burned
 
 ## minisumo components
 - sharp GP2Y0A60SZLF analog distance sensor

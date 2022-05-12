@@ -1,14 +1,26 @@
+#include "Sensor.h"
+#include "SensorLinea.h"
+#include "Motor.h"
+#include "Minisumo.h"
+
+// the setup routine runs once when you press reset:
+Minisumo M1;
+
+
+//    Sensor(int posx,int posy, int dirx, int diry, int pn);
 void setup() {
-  // put your setup code here, to run once:
-  int motorPins[] = {1,2};
-  int numberDistSensor =4;
-  int numberReflecSensor=2;
-  int distSensorPins[] = {3,4,5,6};
-  int reflecSensorPins[] ={7,8};
-  
+  // initialize serial communication at 2000000 bits per second:
+  Serial.begin(9600);
+  M1.initt();
 }
 
+// the loop routine runs over and over again forever:
 void loop() {
-  // put your main code here, to run repeatedly:
+
+  //M1.runn();
+  delay(2000);
+  //M1.pruebaSensores();
+  M1.pruebaMotores();
+  //  runn();
 
 }
