@@ -14,8 +14,8 @@ class Minisumo {
       SensorLinea S2(-1, 1, -1, 1, A2);
       Sen[0] = S1;
       Sen[1] = S2;
-      Motor m1(2, 4, 6);
-      Motor m2(7, 8, 3);
+      Motor m1(4, 9, 5);
+      Motor m2(7, 8, 6);
       Mot[0] = m1;
       Mot[1] = m2;
     }
