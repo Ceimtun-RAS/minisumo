@@ -41,7 +41,7 @@ class SensorLinea :public Sensor{
     int estado = 0;
     int maximo = 1300;
     int minimo = 1;
-    int sensibilidad=30;//valor entre 1-100; recomndacion menor a 40
+    int sensibilidad=11;//valor entre 1-100; recomndacion menor a 40
  
   
   };

@@ -7,7 +7,8 @@ void SensorLinea::leer(){
        //delay(100);
        estado = analogRead(getpin());
       //delay(100);
-      if (estado <(((maximo-minimo)/2)-maximo*sensibilidad/100)) {
+      Serial.print(((maximo-minimo)/2)-(maximo*sensibilidad/100));
+      if (estado <(((maximo-minimo)/2)-(maximo*sensibilidad/100))) {
         Serial.print("blanco  ");
         Serial.println(estado);
         magnitud=-1000;

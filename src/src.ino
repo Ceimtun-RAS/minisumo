@@ -16,11 +16,11 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-
-  //M1.runn();
-  delay(2000);
-  //M1.pruebaSensores();
-  M1.pruebaMotores();
+  
+  M1.runn();
+//  delay(2000);
+ // M1.pruebaSensores();
+  //M1.pruebaMotores();
   //  runn();
 
 }
