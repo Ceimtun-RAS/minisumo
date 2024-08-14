@@ -1,8 +1,8 @@
 #ifndef Motor_h
 #define Motor_h
-#include <Arduino.h>;
+#include <Arduino.h>
   class Motor{
-  public:
+  public: 
     Motor();
     Motor(int pn1,int pn2,int pnv);
     int pin[2];

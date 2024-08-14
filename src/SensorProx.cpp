@@ -1,17 +1,13 @@
 #include "Sensor.h"
 #include "SensorProx.h"
-#include <Arduino.h>;
-SensorProx::SensorProx(int posx,int posy, int dirx, int diry, int pn, int cons1, int cons2):Sensor(posx,posy,dirx, diry, pn){
-  cons1  = cons1;
-  cons2  = cons2;
-  };
+#include <Arduino.h>
+SensorProx::SensorProx(int posx,int posy, int dirx, int diry, int pn):Sensor(posx,posy,dirx, diry, pn){};
 SensorProx::SensorProx():Sensor(){};
 void SensorProx::leer(){
        //delay(100);
-       lectura = analogRead(getpin());
+       estado = analogRead(getpin());
       //delay(100);
-
-      magnitud = getcons1() * pow(lectura, getcons2());
+      magnitud = estado;
     }
 
 /*
@@ -26,4 +22,5 @@ void leer_proximidad(){
    Serial.println(LDI);
    delay(1000);
 }
+
 */
